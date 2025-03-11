@@ -1,0 +1,6 @@
+flask
+gunicorn
+nltk
+transformers
+torch
+pdfplumber
