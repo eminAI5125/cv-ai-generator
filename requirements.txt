@@ -5,3 +5,7 @@ transformers
 torch
 pdfplumber
 pymupdf
+requests
+numpy
+pandas
+fitz
