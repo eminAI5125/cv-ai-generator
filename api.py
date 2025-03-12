@@ -4,6 +4,10 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return jsonify({"message": "API Çalışıyor! POST isteği için /summarize kullan."})
+
 def extract_text_from_pdf(pdf_file):
     """PDF dosyasından metin çıkarır."""
     text = ""
